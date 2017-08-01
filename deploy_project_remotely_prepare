@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mkdir -p ./$container_name/root/app
+
+rsync -r -l --exclude='.git' --exclude='platforms' --exclude='plugins' --exclude='node_modules' --exclude='containers' --exclude='bower_components' --delete-excluded ../ ./$container_name/root/app
