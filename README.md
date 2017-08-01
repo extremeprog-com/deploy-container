@@ -4,7 +4,7 @@
 
 - npm install ...
 
-##Usage
+## Usage
 - Go to a root directory of your project
 Open a terminal and run:
 - node_modules/deploy-container/generate_deploy_folder <container_name>
