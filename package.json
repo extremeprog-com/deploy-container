@@ -1,0 +1,12 @@
+{
+  "name": "deploy-container",
+  "version": "0.0.1",
+  "description": "",
+  "main": "deploy_project_remotely",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
