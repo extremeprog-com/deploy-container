@@ -62,4 +62,4 @@ fi
 # run bash console inside container (for debug)
 # last 2 steps is temporary and used for manual debug. should be removed in future (before automation in CI)
 
-ssh -S $SSH_SOCK -t $SSH_ARGS "cd $TMPDIR; container_name=$SERVICE; $(cat ../node_modules/deploy-container/deploy_project) || exit; echo Streaming log...; (docker logs -f \$container_name & ); docker exec -it \$container_name bash || sleep infinity"
+ssh -S $SSH_SOCK -t $SSH_ARGS "cd $TMPDIR; container_name=$SERVICE; $(cat ../node_modules/@extremeprog-com/deploy-container/deploy_project) || exit; echo Streaming log...; (docker logs -f \$container_name & ); docker exec -it \$container_name bash || sleep infinity"

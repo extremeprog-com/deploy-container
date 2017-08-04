@@ -1,4 +1,4 @@
 #!/bin/bash
 
 mkdir -p containers/$1
-cp -a node_modules/deploy-container/project/. containers/$1/
+cp -a node_modules/@extremeprog-com/deploy-container/project/. containers/$1/
