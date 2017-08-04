@@ -1,6 +1,6 @@
 {
   "name": "@extremeprog-com/deploy-container",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scripts for auto-deploy of web projects",
   "main": "index.js",
   "scripts": {
