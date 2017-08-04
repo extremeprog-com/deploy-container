@@ -2,7 +2,7 @@
 
 ## Installing
 
-- npm install ...
+- npm i @extremeprog-com/deploy-container
 
 ## Usage
 - Go to a root directory of your project

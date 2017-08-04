@@ -1,12 +1,19 @@
 {
-  "name": "deploy-container",
-  "version": "0.0.1",
-  "description": "",
-  "main": "deploy_project_remotely",
+  "name": "@extremeprog-com/deploy-container",
+  "version": "1.0.0",
+  "description": "Scripts for auto-deploy of web projects",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/extremeprog-com/deploy-container.git"
   },
-  "devDependencies": {},
-  "license": "MIT"
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/extremeprog-com/deploy-container/issues"
+  },
+  "homepage": "https://github.com/extremeprog-com/deploy-container#readme"
 }
